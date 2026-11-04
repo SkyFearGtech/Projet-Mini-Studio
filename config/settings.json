@@ -1,0 +1,95 @@
+{
+    "projects": {
+        "70623891-5564-4AB3-B45B-FEA3FD6EF5C6": {
+            "config-debug": {
+                "additionalDependencies": [
+                    "sfml-graphics-s-d.lib",
+                    "sfml-window-s-d.lib",
+                    "sfml-audio-s-d.lib",
+                    "sfml-system-s-d.lib",
+                    "opengl32.lib",
+                    "glu32.lib",
+                    "gdi32.lib",
+                    "winmm.lib",
+                    "dwmapi.lib",
+                    "freetype.lib"
+                ],
+                "additionalIncludeDirectories": [
+                    "$(SolutionDir)..\\SFML-2.5.1\\include",
+                    "$(SolutionDir)..\\extern\\miniaudio",
+                    "$(SolutionDir)..\\extern\\tinyxml2",
+                    "$(SolutionDir)..\\extern\\nlohmann"
+                ],
+                "additionalLibraryDirectories": [
+                    "$(SolutionDir)..\\SFML-2.5.1\\lib"
+                ],
+                "preprocessorDefinitions": [
+                    "SFML_STATIC"
+                ]
+            },
+            "config-release": {
+                "additionalDependencies": [],
+                "additionalIncludeDirectories": [],
+                "additionalLibraryDirectories": [],
+                "preprocessorDefinitions": []
+            },
+            "dependencies": [],
+            "dependents": [
+                "8A274554-4959-48A2-BCC7-2FF4419F776F"
+            ],
+            "name": "LightEngine",
+            "property-lib": true,
+            "property-pch": false,
+            "property-vcpkg": false,
+            "property-window": false
+        },
+        "8A274554-4959-48A2-BCC7-2FF4419F776F": {
+            "config-debug": {
+                "additionalDependencies": [
+                    "sfml-graphics-s-d.lib",
+                    "sfml-window-s-d.lib",
+                    "sfml-audio-s-d.lib",
+                    "sfml-system-s-d.lib",
+                    "opengl32.lib",
+                    "glu32.lib",
+                    "gdi32.lib",
+                    "winmm.lib",
+                    "dwmapi.lib",
+                    "freetype.lib"
+                ],
+                "additionalIncludeDirectories": [
+                    "$(SolutionDir)..\\SFML-2.5.1\\include"
+                ],
+                "additionalLibraryDirectories": [
+                    "$(SolutionDir)..\\SFML-2.5.1\\lib"
+                ],
+                "preprocessorDefinitions": [
+                    "SFML_STATIC"
+                ]
+            },
+            "config-release": {
+                "additionalDependencies": [],
+                "additionalIncludeDirectories": [],
+                "additionalLibraryDirectories": [],
+                "preprocessorDefinitions": []
+            },
+            "dependencies": [
+                "70623891-5564-4AB3-B45B-FEA3FD6EF5C6"
+            ],
+            "dependents": [],
+            "name": "MiniStudio",
+            "property-lib": false,
+            "property-pch": false,
+            "property-vcpkg": false,
+            "property-window": false
+        }
+    },
+    "projects_name_to_guid": {
+        "LightEngine": "70623891-5564-4AB3-B45B-FEA3FD6EF5C6",
+        "MiniStudio": "8A274554-4959-48A2-BCC7-2FF4419F776F"
+    },
+    "solution_guid": "C6673DBF-5F67-4C5D-8CE6-731699998739",
+    "solution_name": "LightEngine",
+    "startup_project": "8A274554-4959-48A2-BCC7-2FF4419F776F",
+    "version": "2.0"
+}
